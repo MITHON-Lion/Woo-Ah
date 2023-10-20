@@ -11,6 +11,7 @@ main {
     padding-top: 35vw;
     background-color: var(--main-color);
     color: white;
+    overflow-y: hidden;
 }
 
 .main-benner>.content>.sub-title {
@@ -93,7 +94,6 @@ main {
 .diary-section {
     position: relative;
     width: 80vw;
-    background-color: aquamarine;
 }
 
 .diary-section>.title {
@@ -116,13 +116,15 @@ main {
     white-space: nowrap;
     overflow-x: auto;
     text-align: center;
-    padding-left: 6vw;
+    padding-left: 4.8vw;    
+    height: 150px;
 }
 
 .slide ul li {
     position: relative;
     display: inline-block;
-    padding: 10px 40px;
+    padding: 10px 10px;
+    width: 200px;
     height: 120px;
     background: #ccc;
     margin-right: 10px;
@@ -132,8 +134,11 @@ main {
     background-color: white;
 }
 
-.slide ul li.on {
-    background: gold;
+li .txt-box {
+    position: relative;
+    font-size: 3.2vw;
+    top: 0.5vh;
+    text-overflow: ellipsis;
 }
 
 .content-box {

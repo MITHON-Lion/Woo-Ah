@@ -34,6 +34,7 @@ header {
 }
 
 header .container {
+    border-width: 0 0 1px;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -43,7 +44,7 @@ header .container {
     justify-content: space-between;
     background-color: var(--white-color);
     padding: 1.3vh;
-    background-color: aqua;
+    background-color: white;
 }
 
 header nav ul {
@@ -84,4 +85,113 @@ img#login_btn {
 
 .wrap-vertical::-webkit-scrollbar{
     display: none; 
+}
+
+
+footer{
+    position : fixed;
+    /* transform : translateY(-100%); */
+    background-color:rgb(255, 255, 255);
+    width: 100vw;
+    height: 10vh;
+    bottom: 0;
+}
+
+/* footer */
+footer button {
+    background-color: rgba(255, 255, 255);
+    border: none;
+    margin-top: 3vh;
+    margin-left: 7vw;
+    color: var(--main-color);
+}
+
+/* 홈 버튼 */
+footer > .home-btn {
+    position: absolute;
+    left: 10vw;
+}
+
+footer > .home-btn > img {
+    position: absolute;
+    top: 1vh;
+    width: 7vw;
+    height: 3.5vh;
+}
+
+footer > .home-btn > p {
+    position: absolute;
+    top: 5vh;
+    left: 2.4vw;
+    color: var(--main-color);
+    font-size: 0.5em;
+}
+
+/* 일기 버튼 */
+footer > .diary-btn {
+    position: absolute;
+    left: 32vw;
+}
+
+footer > .diary-btn img {
+    position: absolute;
+    top: 1vh;
+    width: 7vw;
+    height: 3.5vh;
+}
+
+footer > .diary-btn p {
+    position: absolute;
+    top: 5vh;
+    left: 0.4vw;
+    width: 6vw;
+    /* height: 3.5vh; */
+    color: var(--main-color);
+    font-size: 0.5em;
+    z-index: 9999;
+}
+
+/* 정보 버튼 */
+footer > .info-btn {
+    position: absolute;
+    left: 56vw;
+}
+
+footer > .info-btn img {
+    position: absolute;
+    top: 1.3vh;
+    width: 7.5vw;
+    height: 3vh;
+}
+
+footer > .info-btn p {
+    position: absolute;
+    top: 5vh;
+    left: -1vw;
+    width: 10vw;
+    color: var(--main-color);
+    font-size: 0.5em;
+    /* text-align: center; */
+}
+
+/* 놀이 버튼 */
+footer > .play-btn {
+    position: absolute;
+    left: 80vw;
+}
+
+footer > .play-btn > img {
+    position: absolute;
+    top: 1vh;
+    width: 7vw;
+    height: 3.5vh;
+}
+
+footer > .play-btn > p {
+    position: absolute;
+    top: 5vh;
+    left: -3.5vw;
+    width: 15vw;
+    color: var(--main-color);   
+    font-size: 0.5em;
 }
