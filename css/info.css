@@ -1,0 +1,75 @@
+/* header 수정 */
+.logo > li > a > img {
+    position: relative;
+    left: -7vw;
+}
+
+li > p {
+    font-weight: 900;
+}
+
+main {
+    height: 110vh;
+}
+
+/* 제목 */
+main > .container {
+    margin: 5vw;
+    margin-top: 7vh;
+}
+
+.head-title {
+    position: relative;
+    height: 200px;
+}
+
+.head-title > .title {
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: 7vw;
+    height: 50px;
+}
+
+/* 포스트 리스트 */
+.posts-list {
+    position: relative;
+    text-align: center;
+    top: -6vh;
+}
+
+.posts-list > ul > button {
+    width: 179vw;
+    height: 190px;
+    border: none;
+    margin-bottom: 3vh;
+    background-color: rgba(0, 0, 0, 0);
+    overflow-y: hidden;
+}
+
+.posts-list > ul > button > li {
+    width: 50%;
+    height: 150px;
+    border-radius: 1em;
+    border: 1px solid gray;
+    margin-bottom: 3vh;
+    overflow-y: hidden;
+}
+
+.posts-list > ul > button > li > img {
+    position: relative;
+    top: -4vh;
+    width: 100vw;
+}
+
+.txt-box {
+    position: relative;
+    top: -3vh;
+    height: 18px;
+    text-align: left;
+    padding: 3vw;
+}
+
+.txt-box > .title {
+    font-size: 4vw;
+    font-weight: 900;
+}
