@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/diary.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <div class="logo">
+                        <li>
+                            <a id="logo_txt" href="./index.html">
+                                <img src="./img/pre-btn.png" alt="이전으로">
+                            </a>
+                        </li>
+                        <li>
+                            <p>육아일기</p>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="head-title">
+
+                <div class="title">우리 아이의 성장을 기록하세요</div>
+                <div class="sub-title">
+                    우리 아기의 모든 순간을 기록해볼까요?
+                </div>
+            </div>
+            <button id="new-post-btn"  onclick="location.href='./diary_write.html';">새 글 작성하기</button>
+            <div class="posts-list">
+                <ul>
+                    <li>
+                        <img src="./img/baby1.jpg" alt="">
+                        <div class="txt-box">
+                            <div class="title">
+                                사랑이가 처음으로 뒤집기를 했다!
+                            </div>
+                            <div class="date">2023.10.02</div>
+                            <div class="category">뒤집기</div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/baby2.jpg" alt="">
+                        <div class="txt-box">
+                            <div class="title">
+                                사랑이가 처음으로 뒤집기를 했다!
+                            </div>
+                            <div class="date">2023.10.02</div>
+                            <div class="category">뒤집기</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button onclick="location.href='./index.html';">
+            <div class="home-btn">
+                <img src="img/home-btn.png" alt="홈버튼"><br>
+                <p>홈</p>
+            </div>
+        </button>
+        <button onclick="location.href='./diary.html';">
+            <div class="diary-btn">
+                <img src="img/diary-btn.png" alt="일기버튼"><br>
+                <p>성장일기</p>
+            </div>
+        </button>
+        <button onclick="location.href='./info.html';">
+            <div class="info-btn">
+
+                <img src="img/info-btn.png" alt="정보버튼"><br>
+                <p>육아정보</p>
+            </div>
+        </button>
+        <button onclick="location.href='./play.html';">
+            <div class="play-btn">
+                <img src="img/play-btn.png" alt="놀이버튼"><br>
+                <p>유아놀이</p>
+            </div>
+        </button>
+        <button onclick="location.href='./policy.html';">
+            <div class="policy-btn">
+                <img src="img/policy-btn.png" alt="정책버튼"><br>
+                <p>육아정책</p>
+            </div>
+        </button>
+    </footer>
+</body>
+</html>

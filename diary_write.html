@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/diary_write.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <div class="logo">
+                        <li>
+                            <a id="logo_txt" href="./index.html">
+                                <img src="./img/pre-btn.png" alt="이전으로">
+                            </a>
+                        </li>
+                        <li>
+                            <p>육아일기</p>
+                        </li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="head-title">
+
+                <div class="title">우리 아기의 모든 순간을 기록해볼까요?</div>
+            </div>
+            <form action="./update.php" method="post">
+                <p>제목</p>
+                <input type="text" placeholder="제목을 입력해주세요">
+                <p>제목</p>
+                <select name="category" id="cetegory">
+                    <option value="info" disabled>카테고리를 선택하세요</option>
+                    <option value="info">옹알이</option>
+                    <option value="info">걸음마</option>
+                    <option value="info">뒤집기</option>
+                </select>
+                <p>사진 업로드</p>
+                <input type="button" value="파일 선택">
+                <p>제목</p>
+                <textarea name="content" id="content" placeholder="내용을 입력해주세요"></textarea>
+                <input type="submit" value="입력 완료">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <button onclick="location.href='./index.html';">
+            <div class="home-btn">
+                <img src="img/home-btn.png" alt="홈버튼"><br>
+                <p>홈</p>
+            </div>
+        </button>
+        <button onclick="location.href='./diary.html';">
+            <div class="diary-btn">
+                <img src="img/diary-btn.png" alt="일기버튼"><br>
+                <p>성장일기</p>
+            </div>
+        </button>
+        <button onclick="location.href='./info.html';">
+            <div class="info-btn">
+
+                <img src="img/info-btn.png" alt="정보버튼"><br>
+                <p>육아정보</p>
+            </div>
+        </button>
+        <button onclick="location.href='./play.html';">
+            <div class="play-btn">
+                <img src="img/play-btn.png" alt="놀이버튼"><br>
+                <p>유아놀이</p>
+            </div>
+        </button>
+        <button onclick="location.href='./policy.html';">
+            <div class="policy-btn">
+                <img src="img/policy-btn.png" alt="정책버튼"><br>
+                <p>육아정책</p>
+            </div>
+        </button>
+    </footer>
+</body>
+</html>
