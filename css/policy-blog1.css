@@ -1,0 +1,107 @@
+/* header 수정 */
+.logo > li > a > img {
+    position: relative;
+    left: -7vw;
+}
+
+li > p {
+    font-weight: 900;
+}
+
+main {
+    height: 85vh;
+    overflow-y: hidden;
+}
+
+/* 제목 */
+main > .container {
+    margin: 5vw;
+    margin-top: 7vh;
+}
+
+.head-title {
+    position: relative;
+    height: 200px;
+}
+
+.head-title > .title {
+    position: relative;
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: 6vw;
+    height: 80px;
+}
+
+.head-title > hr {
+    position: relative;
+    top: -5vh;
+    width: 56vw;
+    border: 1px solid var(--main-color);
+}
+
+/* 포스트 리스트 */
+.posts-list {
+    position: relative;
+    text-align: center;
+    top: -10vh;
+}
+
+.posts-list > ul > li {
+    width: 99%;
+    height: 230px;
+    border-radius: 1em;
+    margin-bottom: 3vh;
+    box-shadow: 0px 3px 3px 0px gray;
+    overflow-y: hidden;
+}
+
+.txt-box {
+    position: relative;
+    top: -9vh;
+    background-color: var(--lighter-color);
+    height: 110px;
+    text-align: left;
+    padding: 3vw;
+}
+
+.txt-box > .title {
+    position: relative;
+    color: white;
+    font-size: 4.3vw;
+    top: 10vh;
+    z-index: 999;
+}
+
+li {
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+li > .sub-content {
+    position: relative;
+    top: -5vh;
+    text-align: left;
+    font-size: 3.3vw;
+    left: 2vw;
+}
+
+li > .sub-content > .section > .title {
+    font-weight: 900;
+    color: gray;
+    padding-left: 1vw;
+}
+
+
+li > .sub-content > .section {
+    margin-bottom: 1vh;
+}
+
+li > .sub-content > .section > .content {
+    position: relative;
+    font-weight: 900;
+}
+
+.extra {
+    position: relative;
+    left: 15vw;
+}
