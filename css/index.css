@@ -2,23 +2,84 @@ main {
     position: absolute;
 }
 
+/* 상단 배너 */
 .main-benner {
     position: relative;
     width: 100%;
-    padding-left: 5vw;
-    padding-top: 30vw;
-    padding-bottom: 5vw;
+    height: 100px;
+    padding-left: 10vw;
+    padding-top: 35vw;
     background-color: var(--main-color);
     color: white;
 }
 
-.main-benner > .sub-title {
+.main-benner > .content > .sub-title {
     font-size: 3vw;
     font-weight: 100;
     font-style: var(--content-font);
 }
 
-.main-benner > .logo {
+.main-benner > .content > .logo {
     font-size: 9vw;
     letter-spacing: -0.444vw;
+}
+
+.main-benner > img {
+    position: relative;
+    left: 53vw;
+    top: -12vh;
+}
+
+/* 아기 상태 */
+.content-container {
+    padding: 10vw;
+}
+
+.status {
+    position: relative;
+}
+
+.baby {
+    height: 130px;
+    background-color: aqua;
+}
+
+/* 개월수 */
+.baby > img {
+    width: 30vw;
+}
+
+.baby > .day {
+    position: relative;
+    left: 28vw;
+    top: -12vh;
+}
+
+.d-day {
+    position: relative;
+    height: 50px;
+    color: red;
+    font-size: 6vw;
+    font-weight: 900;
+}
+
+.nickname {
+    font-weight: 600;
+    font-size: 3.7vw;
+}
+
+.day > span {
+    color: gray;
+    font-size: 3.4vw;
+}
+
+.day > p {
+    position: relative;
+    font-size: 3.4vw;
+    left: 17vw;
+    top: -2vh;
+}
+
+.saying {
+    background-color: blue;
 }
