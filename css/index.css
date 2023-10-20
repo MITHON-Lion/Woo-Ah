@@ -13,18 +13,18 @@ main {
     color: white;
 }
 
-.main-benner > .content > .sub-title {
+.main-benner>.content>.sub-title {
     font-size: 3vw;
     font-weight: 100;
     font-style: var(--content-font);
 }
 
-.main-benner > .content > .logo {
+.main-benner>.content>.logo {
     font-size: 9vw;
     letter-spacing: -0.444vw;
 }
 
-.main-benner > img {
+.main-benner>img {
     position: relative;
     left: 53vw;
     top: -12vh;
@@ -41,14 +41,15 @@ main {
 
 .baby {
     height: 130px;
+    overflow-y: hidden;
 }
 
 /* 개월수 */
-.baby > img {
+.baby>img {
     width: 30vw;
 }
 
-.baby > .day {
+.baby>.day {
     position: relative;
     left: 28vw;
     top: -12vh;
@@ -67,12 +68,12 @@ main {
     font-size: 3.7vw;
 }
 
-.day > span {
+.day>span {
     color: gray;
     font-size: 3.4vw;
 }
 
-.day > p {
+.day>p {
     position: relative;
     font-size: 3.4vw;
     left: 17vw;
@@ -86,4 +87,56 @@ main {
     font-size: 3vw;
     color: gray;
     border: 1px solid gray;
+}
+
+/* 기록 슬라이드 */
+.diary-section {
+    position: relative;
+    width: 80vw;
+    background-color: aquamarine;
+}
+
+.diary-section>.title {
+    position: relative;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    font-weight: 900;
+}
+
+.diary-section>.main-slide-container {
+    position: relative;
+    max-width: 350px;
+    width: 110%;
+    left: -5vw;
+    height: 170px;
+    margin: 0 auto;
+}
+
+.slide ul {
+    white-space: nowrap;
+    overflow-x: auto;
+    text-align: center;
+    padding-left: 6vw;
+}
+
+.slide ul li {
+    position: relative;
+    display: inline-block;
+    padding: 10px 40px;
+    height: 120px;
+    background: #ccc;
+    margin-right: 10px;
+    overflow: hidden;
+    border-radius: 1em;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.slide ul li.on {
+    background: gold;
+}
+
+.content-box {
+    background-color: brown;
+    width: 400px;
 }
