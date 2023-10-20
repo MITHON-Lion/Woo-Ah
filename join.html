@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>join</title>
+    <link rel="stylesheet" type="text/css" href="./css/join.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="ltxt">
+            <p>회원가입</p>
+        </div>
+        <div class="txtform">
+            <form action="/php/login.php">
+                <p class="label">이름</p>
+                <input type="text" name="name"class="name" placeholder="본명을 입력하세요">
+                <p class="label">아이디</p>
+                <input type="text" name="id"class="id" placeholder="아이디를 입력하세요">
+                <input type="button" value="중복확인" class="id_ch" size="40">
+                <p class="label">비밀번호</p>
+                <input type="password" name="pw" class="pw" placeholder="비밀번호를 입력하세요">
+                <p class="label">비밀번호 확인</p>
+                <input type="password" name="pw_ch" class="pw" placeholder="동일한 비밀번호를 입력하세요">
+                <input type="button" value="회원가입" class="loginbtn" size="40">
+            </form>
+        </div>
+     
+    </div>
+</body>
+</html>
