@@ -13,18 +13,18 @@
             <p>아이 정보를 입력해주세요</p>
         </div>
         <div class="txtform">
-            <form action="/php/login.php">
-                <input type="text" name="name"class="name" placeholder="아이 이름을 입력하세요">
+            <form action="php/baby.php" method="post">
+                <input type="text" id="name" name="name"class="name" placeholder="아이 이름을 입력하세요" required>
                 <p class="label">아이의 생년/월/일을 입력해주세요.</p>
-                <p><input type="date" value="xxx" min="yyy" max="zzz" class="date"></p>
+                <p><input type="date" name="birth_date"\required> </p>
                 <p class="label">아이의 성별을 선택해주세요.</p>
                 <p>
-                    <select name="성별" class="gender">
-                        <option value="1">여자</option>
-                        <option value="2">남자</option>
+                    <select class="gender" id="gender" name="gender">
+                        <option value=1 selected>여자</option>
+                        <option value=2>남자</option>
                     </select>
                 </p>
-                <input type="button" value="확인" class="check" size="40">
+                <input type="submit" value="확인" class="bu">
             </form>
         </div>
 

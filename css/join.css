@@ -14,8 +14,8 @@
 .container{
     text-align: center;
     position: absolute;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 8.5vw;
+    margin-right: 8.5vw;
 }
 .ltxt{
    font-size: 24px;
@@ -26,28 +26,30 @@
 label{
     text-align: left;
 }
-.name,.pw,.pw_ch,.loginbtn,.id,.id_ch{
+input[type="text"],
+input[type="password"],
+input[type="submit"]{
     padding-left: 2vw;
     height: 5vh;
-    
+    width: 45vh;
+    margin-bottom: 2vh;
     border: 1px solid #ff8989;
     border-radius: 6px;
     font-size: 14px;
 }
-.name,.pw,.pw_ch{
-    width: 45vh;
-    margin-bottom: 3vh;
-}
+
+
 .id{
     width: 51vw;
     margin-bottom: 3vh;
     margin-right: 2vh;
 }
-input[type="button"]{
+input[type="submit"]{
     background-color: #ff6666;
     border: none;
     color: white;
     margin-bottom: 1vh;
+    margin-top: 2vh;
 }
 
 .loginbtn{
@@ -65,7 +67,7 @@ input[type="button"]{
 .label{
     font-size: 14px;
     text-align: left;
-    margin-left: 5vw;
+    
     margin-bottom: 0.5vh;
     height: 21px;
     color: #ad7777;

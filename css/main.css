@@ -27,7 +27,7 @@
 
 input[type="text"],
 input[type="password"],
-input[type="button"]{
+input[type="submit"]{
     padding-left: 2vw;
     height: 5vh;
     width: 45vh;
