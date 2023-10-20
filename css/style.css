@@ -198,3 +198,8 @@ footer > .play-btn > p {
     color: var(--main-color);   
     font-size: 0.5em;
 }
+
+
+::-webkit-scrollbar {
+    display: none;
+}
