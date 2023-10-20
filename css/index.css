@@ -1,5 +1,6 @@
 main {
     position: absolute;
+    height: 145vh;
 }
 
 /* 상단 배너 */
@@ -38,6 +39,7 @@ main {
 
 .status {
     position: relative;
+    margin-top: -2vh;
 }
 
 .baby {
@@ -88,6 +90,7 @@ main {
     font-size: 3vw;
     color: gray;
     border: 1px solid gray;
+    margin-bottom: 4vh;
 }
 
 /* 기록 슬라이드 */
@@ -98,7 +101,6 @@ main {
 
 .diary-section>.title {
     position: relative;
-    margin-top: 4vh;
     margin-bottom: 2vh;
     font-weight: 900;
 }

@@ -93,8 +93,9 @@ footer{
     /* transform : translateY(-100%); */
     background-color:rgb(255, 255, 255);
     width: 100vw;
-    height: 10vh;
+    height: 11vh;
     bottom: 0;
+
 }
 
 /* footer */
