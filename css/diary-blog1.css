@@ -1,0 +1,56 @@
+/* header 수정 */
+.logo > li > a > img {
+    position: relative;
+    left: -7vw;
+}
+
+li > p {
+    font-weight: 900;
+}
+
+main {
+    height: 70vh;
+}
+
+/* 제목 */
+main > .container {
+    position: relative;
+    margin: 5vw;
+    margin-top: 7vh;
+    overflow-y: hidden;
+}
+
+.head-title {
+    position: relative;
+    height: 200px;
+}
+
+.head-title > .title {
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: 7vw;
+    height: 80px;
+}
+
+.head-title > .category {
+    border: 1px solid var(--main-color);
+    width: fit-content;
+    padding: 0.7vw 3vw;
+    margin-top: 1vh;
+    font-size: 3vw;
+    color: var(--main-color);
+    border-radius: 0.5em;
+}
+
+.container > img {
+    position: relative;
+    top: -1vh;
+    width: 99%;
+    border-radius: 1em;
+}
+
+.container > .content {
+    position: relative;
+    height: 100px;
+    top: 3vh;
+}

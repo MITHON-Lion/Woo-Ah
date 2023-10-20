@@ -16,6 +16,8 @@
     --main-font: 'Pretendard-Regular';
     --content-font: 'JeonjuCraftGoR';
     --main-color: #FF6666;
+    --lighter-color: #FF8989;
+    --darker-color: #FF0000;
 }
 
 * {
@@ -195,4 +197,9 @@ footer > .play-btn > p {
     width: 15vw;
     color: var(--main-color);   
     font-size: 0.5em;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
 }
