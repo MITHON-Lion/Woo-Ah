@@ -1,0 +1,90 @@
+/* header 수정 */
+.logo > li > a > img {
+    position: relative;
+    left: -7vw;
+}
+
+li > p {
+    font-weight: 900;
+}
+
+/* 제목 */
+main > .container {
+    margin: 5vw;
+    margin-top: 7vh;
+}
+
+.head-title {
+    position: relative;
+    height: 200px;
+}
+
+.head-title > .title {
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: 7vw;
+    height: 70px;
+}
+
+/* form */
+form {
+    position: relative;
+    top: -10vh;
+}
+
+form > p {
+    color: black;
+    font-size: 3vw;
+}
+
+form > input,
+form > select,
+form > textarea {
+    border: none;
+    border: 1px solid var(--main-color);
+    border-radius: 0.3em;
+}
+
+form > input[type="text"] {
+    width: 97%;
+    height: 40px;
+    padding-left: 2vw;
+}
+
+form > select {
+    width: 99.9%;
+    height: 40px;
+    padding-left: 2vw;
+}
+
+form > input[type="button"] {
+    width: 30%;
+    height: 40px;
+    background-color: var(--main-color);
+    color: white;
+}
+
+form > textarea {
+    width: 92.5%;
+    height: 220px;
+    padding: 3vw;
+}
+
+form > input[type="submit"] {
+    background-color: var(--main-color);
+    width: 100%;
+    height: 40px;
+    margin-top: 3vh;
+    color: white;
+}
+
+form > p {
+    margin-top: 2vh;
+    margin-bottom: 0.5vh;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline-color: var(--main-color);
+}
