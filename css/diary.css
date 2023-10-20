@@ -5,9 +5,94 @@
 }
 
 header > .container{
-    background-color: aqua;
+    
 }
 
 li > p {
     font-weight: 900;
+}
+
+main {
+    height: 110vh;
+}
+
+/* 제목 */
+main > .container {
+    margin: 5vw;
+    margin-top: 7vh;
+}
+
+.head-title {
+    position: relative;
+    height: 200px;
+}
+
+.head-title > .title {
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: 7vw;
+    height: 50px;
+}
+
+#new-post-btn {
+    position: relative;
+    top: -8vh;
+    left: 65vw;
+    background-color: white;
+    border-radius: 0.3em;
+    border: none;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: 1.8vw 1.5vw;
+}
+
+/* 포스트 리스트 */
+.posts-list {
+    position: relative;
+    text-align: center;
+    top: -6vh;
+}
+
+.posts-list > ul > li {
+    width: 99%;
+    height: 270px;
+    border-radius: 1em;
+    border: 1px solid gray;
+    margin-bottom: 3vh;
+    box-shadow: 0px 3px 3px 0px gray;
+    overflow-y: hidden;
+}
+
+.posts-list > ul > li > img {
+    position: relative;
+    top: -4vh;
+    width: 100vw;
+}
+
+.txt-box {
+    position: relative;
+    top: -12vh;
+    background-color: white;
+    height: 140px;
+    text-align: left;
+    padding: 3vw;
+}
+
+.txt-box > .title {
+    font-size: 5vw;
+    font-weight: 900;
+}
+
+.txt-box > .date {
+    height: 3vh;
+    font-size: 3vw;
+}
+
+.txt-box > .category {
+    border: 1px solid var(--main-color);
+    width: fit-content;
+    padding: 0.7vw 3vw;
+    font-size: 3vw;
+    color: var(--main-color);
+    border-radius: 0.5em;
 }
