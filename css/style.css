@@ -5,8 +5,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'JeonjuCraftGoR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftGoR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     --main-font: 'Pretendard-Regular';
+    --content-font: 'JeonjuCraftGoR';
+    --main-color: #FF6666;
 }
 
 * {
@@ -18,10 +27,9 @@
 header {
     position: sticky;
     top: 0;
-    width: 100vw;
-    height: fit-content;
-    z-index: 9999;
-    
+    width: 100%;
+    background-color: #fff; /* 헤더 배경색 설정 */
+    z-index: 100; /* 다른 요소 위에 나타나도록 설정 */ 
 }
 
 header .container {
@@ -36,7 +44,6 @@ header .container {
     padding: 1.3vh;
     background-color: aqua;
 }
-
 
 header nav ul {
     display: flex;
