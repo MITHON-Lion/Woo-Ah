@@ -22,8 +22,9 @@ main {
 }
 
 .main-benner>.content>.logo {
+    font-family: 'Anton', sans-serif;
     font-size: 9vw;
-    letter-spacing: -0.444vw;
+    letter-spacing: -0.144vw;
 }
 
 .main-benner>img {

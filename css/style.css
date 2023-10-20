@@ -12,8 +12,11 @@
     font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 :root {
     --main-font: 'Pretendard-Regular';
+    --logo-font: 'Anton';
     --content-font: 'JeonjuCraftGoR';
     --main-color: #FF6666;
     --lighter-color: #FF8989;
