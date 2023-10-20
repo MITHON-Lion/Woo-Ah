@@ -41,7 +41,6 @@ main {
 
 .baby {
     height: 130px;
-    background-color: aqua;
 }
 
 /* 개월수 */
@@ -81,5 +80,10 @@ main {
 }
 
 .saying {
-    background-color: blue;
+    padding: 3vw;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 3vw;
+    color: gray;
+    border: 1px solid gray;
 }
