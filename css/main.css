@@ -12,8 +12,12 @@
     /*폰트 색상 */
 }
 .container{
+    position: relative;
     text-align: center;
     position: absolute;
+    margin-left:5vw;
+    margin-right: 5vw;
+    width: 90vw;
 
 }
 .ltxt{
@@ -25,10 +29,11 @@
 
 input[type="text"],
 input[type="password"],
-input[type="button"]{
+input[type="submit"]{
+    position: relative;
     padding-left: 2vw;
     height: 5vh;
-    width: 45vh;
+    width: 87vw;
 
     border: 1px solid #ff8989;
     border-radius: 6px;
