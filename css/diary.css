@@ -1,0 +1,13 @@
+/* header 수정 */
+.logo > li > a > img {
+    position: relative;
+    left: -7vw;
+}
+
+header > .container{
+    background-color: aqua;
+}
+
+li > p {
+    font-weight: 900;
+}
