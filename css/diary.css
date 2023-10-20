@@ -13,7 +13,7 @@ li > p {
 }
 
 main {
-    height: 110vh;
+    height: 140vh;
 }
 
 /* 제목 */
@@ -53,7 +53,12 @@ main > .container {
     top: -6vh;
 }
 
-.posts-list > ul > li {
+.posts-list > ul > button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    width: 90vw;
+}
+.posts-list > ul > button > li {
     width: 99%;
     height: 270px;
     border-radius: 1em;
@@ -63,7 +68,7 @@ main > .container {
     overflow-y: hidden;
 }
 
-.posts-list > ul > li > img {
+.posts-list > ul > button > li > img {
     position: relative;
     top: -4vh;
     width: 100vw;
@@ -71,7 +76,7 @@ main > .container {
 
 .txt-box {
     position: relative;
-    top: -12vh;
+    top: -11vh;
     background-color: white;
     height: 140px;
     text-align: left;

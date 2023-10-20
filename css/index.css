@@ -1,6 +1,6 @@
 main {
     position: absolute;
-    height: 145vh;
+    height: 170vh;
 }
 
 /* 상단 배너 */
@@ -97,6 +97,7 @@ main {
 .diary-section {
     position: relative;
     width: 80vw;
+    overflow-y: hidden;
 }
 
 .diary-section>.title {
@@ -122,6 +123,11 @@ main {
     height: 150px;
 }
 
+.slide ul button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
 .slide ul li {
     position: relative;
     display: inline-block;
@@ -136,14 +142,21 @@ main {
     background-color: white;
 }
 
+.slide ul button li img{
+    position: relative;
+    top: -3vh;
+    width: 111%;
+    height: 111%;
+    left: -3vw;
+}
+
 li .txt-box {
     position: relative;
     font-size: 3.2vw;
-    top: 0.5vh;
+    top: -3vh;
     text-overflow: ellipsis;
 }
 
 .content-box {
-    background-color: brown;
     width: 400px;
 }
